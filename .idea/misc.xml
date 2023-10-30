@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka_module/pom.xml" />
+        <option value="$PROJECT_DIR$/ApiGateway_module/pom.xml" />
+        <option value="$PROJECT_DIR$/configuration_module/pom.xml" />
+        <option value="$PROJECT_DIR$/product_module/pom.xml" />
+        <option value="$PROJECT_DIR$/ProductService/pom.xml" />
+        <option value="$PROJECT_DIR$/userModule/pom.xml" />
+        <option value="$PROJECT_DIR$/orderModule/pom.xml" />
+        <option value="$PROJECT_DIR$/cartModule/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_18" default="true" project-jdk-name="18" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

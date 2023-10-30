@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApiGateway_module/ApiGateway_module.iml" filepath="$PROJECT_DIR$/ApiGateway_module/ApiGateway_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApiGateway_module (1).iml" filepath="$PROJECT_DIR$/ApiGateway_module (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/cartModule/cartModule.iml" filepath="$PROJECT_DIR$/cartModule/cartModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration_module/configuration_module.iml" filepath="$PROJECT_DIR$/configuration_module/configuration_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka_module/eureka_module.iml" filepath="$PROJECT_DIR$/eureka_module/eureka_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orderModule/orderModule.iml" filepath="$PROJECT_DIR$/orderModule/orderModule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProductService/product_module.iml" filepath="$PROJECT_DIR$/ProductService/product_module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userModule/userModule.iml" filepath="$PROJECT_DIR$/userModule/userModule.iml" />
+    </modules>
+  </component>
+</project>

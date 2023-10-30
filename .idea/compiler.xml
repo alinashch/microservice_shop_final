@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka_module" />
+        <module name="configuration_module" />
+        <module name="ApiGateway_module (1)" />
+        <module name="ApiGateway_module" />
+      </profile>
+      <profile name="Annotation profile for orderModule" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct-processor/1.5.3.Final/mapstruct-processor-1.5.3.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.3.Final/mapstruct-1.5.3.Final.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-configuration-processor/2.5.10/spring-boot-configuration-processor-2.5.10.jar" />
+        </processorPath>
+        <module name="cartModule" />
+        <module name="userModule" />
+        <module name="orderModule" />
+        <module name="product_module" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ApiGateway_module" target="17" />
+      <module name="ApiGateway_module (1)" target="17" />
+      <module name="cartModule" target="17" />
+      <module name="cartQueryModule" target="17" />
+      <module name="Client" target="17" />
+      <module name="configuration_module" target="17" />
+      <module name="eureka_module" target="11" />
+      <module name="microservice_shop" target="17" />
+      <module name="orderModule" target="17" />
+      <module name="product_module" target="17" />
+      <module name="ProductService" target="17" />
+      <module name="ProductService (1) (com.product)" target="17" />
+      <module name="userModule" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGateway_module" options="-parameters" />
+      <module name="ApiGateway_module (1)" options="-parameters" />
+      <module name="Client" options="-parameters" />
+      <module name="ProductService" options="-parameters" />
+      <module name="ProductService (1) (com.product)" options="-parameters" />
+      <module name="cartModule" options="-parameters" />
+      <module name="cartQueryModule" options="-parameters" />
+      <module name="configuration_module" options="-parameters" />
+      <module name="eureka_module" options="-parameters" />
+      <module name="microservice_shop" options="-parameters" />
+      <module name="orderModule" options="-parameters" />
+      <module name="product_module" options="-parameters" />
+      <module name="userModule" options="-parameters" />
+    </option>
+  </component>
+</project>
