@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: eureka_module
+  cloud:
+    config:
+      url: http://localhost:8888

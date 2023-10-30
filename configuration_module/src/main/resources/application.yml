@@ -1,0 +1,12 @@
+
+spring:
+  profiles:
+    active: native
+  active: native
+  config:
+    activate:
+      on-profile:
+
+
+server:
+  port: 8888

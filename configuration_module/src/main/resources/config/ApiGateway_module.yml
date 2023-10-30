@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: ApiGateway_module
+  zipkin:
+    base-url: http://localhost:9411/
+  cloud:
+    gateway:
+      routes:
+        - id: productService
+          uri: lb://ProductService
+          predicates:
+            - Path=/products/**
+        - id: userModule
+          uri: lb://userModule
+          predicates:
+            - Path=/user/**
+        - id: cartModule
+          uri: lb://cartModule
+          predicates:
+            - Path=/cart/**
+        - id: orderModule
+          uri: lb://orderModule
+          predicates:
+            - Path=/order/**
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
